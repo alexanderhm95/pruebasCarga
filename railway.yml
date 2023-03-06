@@ -1,0 +1,9 @@
+version: '1'
+name: panel-sg
+env:
+  RAILS_ENV: production
+services:
+  web:
+    image: railwayapp/start-nginx:0.0.2
+    http:
+      80: dist/

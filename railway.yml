@@ -5,5 +5,7 @@ env:
 services:
   web:
     image: railwayapp/start-nginx:0.0.2
+    https:
+    8080: dist/panel-sg
     http:
-      80: dist/
+      80: dist/panel-sg
